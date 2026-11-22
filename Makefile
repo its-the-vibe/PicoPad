@@ -9,13 +9,12 @@ bootstrap:
 	mpremote mip install github:peterhinch/micropython-touch
 	mpremote run bootstrap.py
 
-
-
 deploy:
 	mpremote fs cp main.py :main.py
 	mpremote fs cp secrets.py :secrets.py
 	mpremote fs cp touch_setup.py :touch_setup.py
 	mpremote fs cp ili9486_16bit.py :ili9486_16bit.py
+	mpremote fs cp wifi.py :wifi.py
 	mpremote run main.py
 
 dev:

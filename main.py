@@ -23,8 +23,8 @@ def main():
     rh = 30  # height
     rcol = ssd.width // 2 - rw // 2
     rrow = ssd.height // 2 - rh // 2
-    ssd.rect(rcol, rrow, rw, rh, GREEN)
-    display.print_centred(wri, ssd.width // 2, ssd.height // 2, "Quit")
+    ssd.rect(rcol, rrow, rw, rh, RED)
+    display.print_centred(wri, ssd.width // 2, ssd.height // 2, "Quit", RED)
     display.print_left(wri, 2, 2, f"Touch points, check row & col.")
     display.print_left(wri, 2, 30, f"row = ", YELLOW)
     display.print_left(wri, 2, 60, f"col = ", YELLOW)

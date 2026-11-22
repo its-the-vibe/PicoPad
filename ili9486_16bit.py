@@ -51,7 +51,7 @@ def _lscopy_16bit(dest: ptr16, source: ptr16, ch: int, invert_mask: int):
 
 class ILI9486_16bit(framebuf.FrameBuffer):
 
-    lut = bytearray(32)
+    # lut = bytearray(32)
     COLOR_INVERT = 0
 
     # Convert r, g, b in range 0-255 to a 16 bit RGB565 colour value

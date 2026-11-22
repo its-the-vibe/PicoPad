@@ -1,5 +1,8 @@
 {
     "files": [
-        "main.py"
+        "main.py",
+        "ili9486_16bit.py",
+        "touch_setup.py",
+        "wifi.py"
     ]
 }
