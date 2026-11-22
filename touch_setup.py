@@ -44,7 +44,7 @@
 
 from machine import Pin, SPI, freq
 import gc
-from lib.drivers.ili94xx.ili9486_16bit import ILI9486_16bit as SSD
+from ili9486_16bit import ILI9486_16bit as SSD
 
 SSD.COLOR_INVERT = 0xFFFF  # Fix color inversion
 

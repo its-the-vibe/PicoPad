@@ -20,7 +20,7 @@ from time import sleep_ms
 import gc
 import framebuf
 import asyncio
-from drivers.boolpalette import BoolPalette
+from lib.drivers.boolpalette import BoolPalette
 
 # Portrait mode - direct 16-bit RGB565 color
 @micropython.viper
